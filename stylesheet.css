@@ -1,13 +1,7 @@
-nav {
+.navbar {
   background-color: rgb(125, 166, 243);
+  position: fixed;
 }
-
-/* nav .logo {
-  background-color: #5a5757;
-  color: #fff;
-  padding: 8px;
-  border-radius: 12px;
-} */
 
 .hero {
   min-height: 100vh;
@@ -52,6 +46,108 @@ nav {
   font-weight: 300;
   text-shadow: 1px 1px 3px rgba(255, 255, 255, 1);
 }
+
+/* about */
+/* about us */
+
+.about {
+  padding: 7rem 7% 1.2rem;
+}
+
+.about .awal {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #01010180;
+}
+
+.row {
+  display: flex;
+}
+
+.row .about-img {
+  flex: 1 1 45rem;
+}
+
+.about-img img {
+  width: 100%;
+  padding: 3rem 2rem;
+  border-radius: 70px;
+}
+
+/* content1 */
+.row .contents1 {
+  flex: 1 1 35rem;
+  padding: 2rem 2rem;
+  height: 43rem;
+  padding-bottom: 80px;
+  background-color: var(--primary);
+  border-radius: 25px;
+}
+
+.contents1 h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--bg);
+}
+
+.row .contents1 p {
+  color: #01010180;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+/* content2 */
+.row .contents2 {
+  flex: 1 1 35rem;
+  padding: 2rem 2rem;
+  height: 35rem;
+  padding-bottom: 80px;
+  background-color: var(--primary);
+  border-radius: 20px;
+}
+
+.contents2 h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--bg);
+}
+
+.row .contents2 p {
+  color: #01010180;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+/* contents3 */
+.row .contents3 {
+  flex: 1 1 35rem;
+  padding: 2rem 2rem;
+  height: 46rem;
+  padding-bottom: 80px;
+  background-color: var(--primary);
+  border-radius: 20px;
+}
+
+.contents3 h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--bg);
+}
+
+.row .contents3 p {
+  color: #01010180;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  font-weight: 300;
+  line-height: 1.6;
+}
+/* endabout */
+/* akhir about */
 
 /* media */
 @media (max-width: 1366px) {
